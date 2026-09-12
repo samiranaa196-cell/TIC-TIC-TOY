@@ -1,0 +1,87 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#050b18">
+
+    <meta name="description"
+          content="Aesthetic Tic-Tac-Toe game">
+
+    <link rel="manifest" href="manifest.json">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>DARK X-O</title>
+</head>
+
+<body>
+
+    <div class="game-container">
+
+        <header class="game-header">
+            <h1>DARK <span>X-O</span></h1>
+            <p>TIC-TAC-TOE</p>
+        </header>
+
+
+        <div class="score-board">
+
+            <div class="score-box">
+                <span>PLAYER X</span>
+                <strong id="scoreX">0</strong>
+            </div>
+
+            <div class="vs">
+                VS
+            </div>
+
+            <div class="score-box">
+                <span>PLAYER O</span>
+                <strong id="scoreO">0</strong>
+            </div>
+
+        </div>
+
+
+        <div class="turn">
+            <span id="turnText">PLAYER X'S TURN</span>
+        </div>
+
+
+        <main class="board" id="board">
+
+            <button class="cell" data-index="0"></button>
+            <button class="cell" data-index="1"></button>
+            <button class="cell" data-index="2"></button>
+
+            <button class="cell" data-index="3"></button>
+            <button class="cell" data-index="4"></button>
+            <button class="cell" data-index="5"></button>
+
+            <button class="cell" data-index="6"></button>
+            <button class="cell" data-index="7"></button>
+            <button class="cell" data-index="8"></button>
+
+        </main>
+
+
+        <div class="message" id="message"></div>
+
+
+        <button class="new-game" id="newGame">
+            NEW GAME
+        </button>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
