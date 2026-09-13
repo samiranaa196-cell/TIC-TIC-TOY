@@ -1,0 +1,17 @@
+{
+  "name": "DARK X CYBER Tic Tac Toe",
+  "short_name": "DARK X TTT",
+  "description": "Aesthetic offline Tic Tac Toe game",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#07152d",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
